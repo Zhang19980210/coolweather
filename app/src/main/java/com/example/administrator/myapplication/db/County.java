@@ -1,7 +1,7 @@
-package com.example.administrator.myapplication.model;
+package com.example.administrator.myapplication.db;
 
 /**
- * Created by Administrator on 2019/3/21 0021.
+ * Created by Administrator on 2019/3/29 0029.
  */
 
 public class County {

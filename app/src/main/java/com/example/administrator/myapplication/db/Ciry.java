@@ -1,10 +1,10 @@
-package com.example.administrator.myapplication.model;
+package com.example.administrator.myapplication.db;
 
 /**
- * Created by Administrator on 2019/3/21 0021.
+ * Created by Administrator on 2019/3/29 0029.
  */
 
-public class City {
+public class Ciry {
     private int id;
     private String cityName;
     private int cityCode;
@@ -14,12 +14,12 @@ public class City {
         return id;
     }
 
-    public int getCityCode() {
-        return cityCode;
-    }
-
     public String getCityName() {
         return cityName;
+    }
+
+    public int getCityCode() {
+        return cityCode;
     }
 
     public int getProvinceId() {
@@ -34,7 +34,7 @@ public class City {
         this.cityName = cityName;
     }
 
-    public void setCityCode(String cityCode) {
+    public void setCityCode(int cityCode) {
         this.cityCode = cityCode;
     }
 

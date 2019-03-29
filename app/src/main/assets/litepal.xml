@@ -1,0 +1,9 @@
+<litepal>
+    <dbnmae value="cool_weather"/>
+    <version valu="1"/>
+    <list>
+        <mapping class="com.example.administrator.myapplication.db.City"/>
+        <mapping class="com.example.administrator.myapplication.db.County"/>
+        <mapping class="com.example.administrator.myapplication.db.Province"/>
+    </list>
+</litepal>
